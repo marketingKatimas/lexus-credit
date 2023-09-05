@@ -46,6 +46,16 @@
 
     <title>Lexus Credit Sdn Bhd</title>
     <link rel="icon" type="image/png" href="assets/img/favicon_Lexus.png">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BW6WWRJ63F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BW6WWRJ63F');
+</script>
 </head>
 
 <body>
@@ -157,8 +167,8 @@
                 <!-- Start Application Process Section + Document Needed Slide -->
                 <div class="col-lg-6 col-md-12">
                     <div class="order-details">
-                        <h2><span class="simpleSteps" id="textSimpleSteps">4 Simple steps</span> <br>
-                            <span class="simpleStepsP" id="textSimpleStepsP">to received your cash</span>
+                        <h2><span class="simpleSteps" id="textSimpleSteps">Application Process</span> <br>
+                            <!-- <span class="simpleStepsP" id="textSimpleStepsP">to received your cash</span> -->
                         </h2>
                         <br>
 
@@ -168,7 +178,16 @@
                                 <span id="iconOne" class="material-symbols-outlined">mouse</span>
                             </div>
                             <h3 id="textOnlineApplication">Online Application</h3>
-                            <p id="textOnlineApplicationP">Fill up the loan application form. Takes only 3 mins.</p>
+                            <p id="textOnlineApplicationP">Fill up the loan application form.</p>
+                        </div>
+
+                        <div class="productive-area-contentSteps">
+                            <div class="icon">
+                                <span id="iconThree" class="material-symbols-outlined">folder_open</span>
+                            </div>
+                            <h3 id="textBringYourDocument">Attached/ Prepare Important Document</h3>
+                            <p id="textBringYourDocumentP">Please ensure you bring all the necessary documents with you.
+                            </p>
                         </div>
 
                         <div class="productive-area-contentSteps">
@@ -176,28 +195,18 @@
                                 <span id="iconTwo" class="material-symbols-outlined">calendar_today</span>
                             </div>
                             <h3 id="textGetAppointment">Get an appointment date</h3>
-                            <p id="textGetAppointmentP">We will reach out to you to arrange a suitable appointment date
-                                according <br>to your
-                                convenience.</p>
-                        </div>
-
-                        <div class="productive-area-contentSteps">
-                            <div class="icon">
-                                <span id="iconThree" class="material-symbols-outlined">folder_open</span>
-                            </div>
-                            <h3 id="textBringYourDocument">Bring your documents</h3>
-                            <p id="textBringYourDocumentP">Please ensure you bring all the necessary documents with you.
+                            <p id="textGetAppointmentP">We will contact you to set the date and document verification
                             </p>
                         </div>
 
-                        <div class="productive-area-contentSteps">
+                        <!-- <div class="productive-area-contentSteps">
                             <div class="icon">
                                 <span id="iconFour" class="material-symbols-outlined"> partner_exchange</span>
                             </div>
                             <h3 id="textMeetUs">Meet us</h3>
                             <p id="textMeetUsP">Head down to our office, sign the contract and get your money instantly.
                             </p>
-                        </div>
+                        </div> -->
                         <br>
 
                         <div class="payment-box">
@@ -220,15 +229,15 @@
                 <!-- Start Online Application Form -->
                 <div class="col-lg-6 col-md-12">
                     <div class="billing-details">
-                        <h3 class="title" id="textOnlineApplicationForm">Online Application</h3>
-                        <p id="textOnlineApplicationFormP">Fill in your details below and submit to get started</p>
+                        <h3 class="title" id="OnlineApplication">Online Application</h3>
+                        <p id="FillInYourDetails">Fill in your details below and submit to get started</p>
                         <div class="row">
 
                             <div class="container-apply">
                                 <!-- Apply Form Start Here -->
                                 <form id="applyForm" method="POST">
                                     <div class="formbold-mb-3">
-                                        <label for="amount" class="formbold-form-label" id="textLoanAmount"> Loan
+                                        <label for="amount" class="formbold-form-label" id="LoanAmount"> Loan
                                             Amount (RM): </label>
                                         <input type="text" name="amount" id="amount" placeholder="0"
                                             class="formbold-form-input" inputmode="numeric" />
@@ -236,14 +245,14 @@
                                     </div>
 
                                     <div class="formbold-mb-3">
-                                        <label for="age" class="formbold-form-label" id="textLoanAge"> Age: </label>
+                                        <label for="age" class="formbold-form-label" id="LoanAge"> Age: </label>
                                         <input type="text" name="age" id="age" placeholder="0"
                                             class="formbold-form-input" inputmode="numeric" />
                                         <div class="error-message" id="ageError" style="color: red;"></div>
                                     </div>
 
                                     <div class="formbold-mb-3">
-                                        <label for="name" class="formbold-form-label" id="textNameAs"> Name as In
+                                        <label for="name" class="formbold-form-label" id="NameAs"> Name as In
                                             NRIC: </label>
                                         <input type="text" name="name" id="name" placeholder="ex: John Doe"
                                             class="formbold-form-input" />
@@ -251,7 +260,7 @@
                                     </div>
 
                                     <div class="formbold-mb-3">
-                                        <label for="email" class="formbold-form-label" id="textEmail">
+                                        <label for="email" class="formbold-form-label" id="Email">
                                             Email:</label>
                                         <input type="text" name="email" id="email" placeholder="ex: johnDeo@gmail.com"
                                             class="formbold-form-input" inputmode="email" />
@@ -259,7 +268,7 @@
                                     </div>
 
                                     <div class="formbold-mb-3">
-                                        <label for="phone" class="formbold-form-label" id="textMobile"> Mobile
+                                        <label for="phone" class="formbold-form-label" id="Mobile"> Mobile
                                             Contact No.: </label>
                                         <input type="text" name="phone" id="phone" placeholder="ex: 0123456789"
                                             class="formbold-form-input" inputmode="numeric" />
@@ -267,21 +276,21 @@
                                     </div>
 
                                     <div class="formbold-mb-3">
-                                        <label for="sector" class="formbold-form-label" id="textEmploymentSector">
+                                        <label for="sector" class="formbold-form-label" id="EmploymentSector">
                                             Employment Sector: </label>
                                         <select class="formbold-form-input-option" name="sector" id="sector">
-                                            <option value="" id="textPleaseSelect" disabled selected>Please Select
+                                            <option value="" disabled selected id="PleaseSelect">Please Select
                                             </option>
-                                            <option value="government" id="textGovernment">Government</option>
-                                            <option value="government-link" id="textGovernmentLink">Government Link
+                                            <option value="government" id="Government">Government</option>
+                                            <option value="government-link" id="GovernmentLink">Government Link
                                             </option>
-                                            <option value="private" id="textPrivate">Private</option>
+                                            <option value="private" id="Private">Private</option>
                                         </select>
                                         <div class="error-message" id="sectorError" style="color: red;"></div>
                                     </div>
 
                                     <div class="formbold-mb-3">
-                                        <label for="salary" class="formbold-form-label" id="textMonthlyGrossSalary">
+                                        <label for="salary" class="formbold-form-label" id="MonthlyGrossSalary">
                                             Monthly Gross Salary (RM): </label>
                                         <input type="text" name="salary" id="salary" placeholder="0"
                                             class="formbold-form-input" inputmode="numeric" />
@@ -289,9 +298,9 @@
                                     </div>
 
                                     <div class="formbold-mb-3">
-                                        <label for="nett_salary" class="formbold-form-label" id="textMonthlyNettSalary">
+                                        <label for="nett_salary" class="formbold-form-label" id="MonthlyNettSalary">
                                             Monthly Nett Salary (RM): </label>
-                                        <input type="text" name="nett_salary" id="nett_salary" placeholder="0"
+                                        <input type="text" name="nettSalary" id="nettSalary" placeholder="0"
                                             class="formbold-form-input" inputmode="numeric" />
                                         <div class="error-message" id="nett_salaryError" style="color: red;"></div>
                                     </div>
@@ -321,7 +330,7 @@
 
                                     <button class="formbold-btn g-recaptcha"
                                         data-sitekey="6LdmCn0nAAAAANC8dQDeC3bko97zlloPkuFcyP7_" data-callback='onSubmit'
-                                        data-action='submit' id="textSubmit">Submit</button>
+                                        data-action='submit' id="Submit">Submit</button>
                                 </form>
                                 <!-- Apply Form End Here -->
 
@@ -349,7 +358,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer-area-content">
-                        <img src="assets/img/logo/Main_LogoLexusB.png" alt="image" height="150px" width="150px">
+                        <img src="assets/img/logo/Main_LogoLexusB-color.png" alt="image" height="150px" width="150px">
                     </div>
                 </div>
 
@@ -531,7 +540,7 @@
             const phoneInput = document.getElementById('phone');
             const sectorInput = document.getElementById('sector');
             const salaryInput = document.getElementById('salary');
-            const nett_salaryInput = document.getElementById('nett_salary');
+            const nett_salaryInput = document.getElementById('nettSalary');
 
             if (amountInput.value.trim() === '') {
                 displayErrorMessage('amount', 'This fields is required');

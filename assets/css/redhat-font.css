@@ -1,0 +1,125 @@
+/* Red Hat Display Black */
+@font-face {
+    font-family: 'RedHatDisplay-Black';
+    src: url('../fonts/redhat-font/RedHatDisplay-Black.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-Black.woff') format('woff');
+    font-weight: 900; /* Numeric value for Black */
+    font-style: normal; 
+}
+
+/* Red Hat Display Black Italic */
+@font-face {
+    font-family: 'RedHatDisplay-Black';
+    src: url('../fonts/redhat-font/RedHatDisplay-BlackItalic.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900; /* Numeric value for Black */
+    font-style: italic;
+}
+
+/* Red Hat Display Bold */
+@font-face {
+    font-family: 'RedHatDisplay-Bold';
+    src: url('../fonts/redhat-font/RedHatDisplay-Bold.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: bold; /* Use "bold" for Bold */
+    font-style: normal; /* Set to "normal" if it's not italic or oblique */
+}
+
+/* Red Hat Display Bold Italic */
+@font-face {
+    font-family: 'RedHatDisplay-BoldItalic';
+    src: url('../fonts/redhat-font/RedHatDisplay-BoldItalic.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold; /* Use "bold" for Bold */
+    font-style: italic;
+}
+
+/* Red Hat Display Extra Bold */
+@font-face {
+    font-family: 'RedHatDisplay-ExtraBold';
+    src: url('../fonts/redhat-font/RedHatDisplay-ExtraBold.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-ExtraBold.woff') format('woff');
+    font-weight: 800; /* Numeric value for Extra Bold */
+    font-style: normal; /* Set to "normal" if it's not italic or oblique */
+}
+
+/* Red Hat Display Extra Bold Italic */
+@font-face {
+    font-family: 'RedHatDisplay-ExtraBoldItalic';
+    src: url('../fonts/redhat-font/RedHatDisplay-ExtraBoldItalic.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800; /* Numeric value for Extra Bold */
+    font-style: italic;
+}
+
+/* Red Hat Display Italic */
+@font-face {
+    font-family: 'RedHatDisplay-Italic';
+    src: url('../fonts/redhat-font/RedHatDisplay-Italic.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-Italic.woff') format('woff');
+    font-weight: normal; /* Use "normal" for Italic */
+    font-style: italic;
+}
+
+/* Red Hat Display Light */
+@font-face {
+    font-family: 'RedHatDisplay-Light';
+    src: url('../fonts/redhat-font/RedHatDisplay-Light.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-Light.woff') format('woff');
+    font-weight: 300; /* Numeric value for Light */
+    font-style: normal; /* Set to "normal" if it's not italic or oblique */
+}
+
+/* Red Hat Display Light Italic */
+@font-face {
+    font-family: 'RedHatDisplay-LightItalic';
+    src: url('../fonts/redhat-font/RedHatDisplay-LightItalic.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-LightItalic.woff') format('woff');
+    font-weight: 300; /* Numeric value for Light */
+    font-style: italic;
+}
+
+/* Red Hat Display Medium */
+@font-face {
+    font-family: 'RedHatDisplay-Medium';
+    src: url('../fonts/redhat-font/RedHatDisplay-Medium.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-Medium.woff') format('woff');
+    font-weight: 500; /* Numeric value for Medium */
+    font-style: normal; /* Set to "normal" if it's not italic or oblique */
+}
+
+/* Red Hat Display Medium Italic */
+@font-face {
+    font-family: 'RedHatDisplay-MediumItalic';
+    src: url('../fonts/redhat-font/RedHatDisplay-MediumItalic.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500; /* Numeric value for Medium */
+    font-style: italic;
+}
+
+/* Red Hat Display Regular */
+@font-face {
+    font-family: 'RedHatDisplay-Regular';
+    src: url('../fonts/redhat-font/RedHatDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-Regular.woff') format('woff');
+    font-weight: normal; /* Use "normal" for Regular */
+    font-style: normal; /* Set to "normal" if it's not italic or oblique */
+}
+
+/* Red Hat Display Semi-Bold */
+@font-face {
+    font-family: 'RedHatDisplay-SemiBold';
+    src: url('../fonts/redhat-font/RedHatDisplay-SemiBold.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-SemiBold.woff') format('woff');
+    font-weight: 600; /* Numeric value for Semi-Bold */
+    font-style: normal; /* Set to "normal" if it's not italic or oblique */
+}
+
+/* Red Hat Display Semi-Bold Italic */
+@font-face {
+    font-family: 'RedHatDisplay-SemiBoldItalic';
+    src: url('../fonts/redhat-font/RedHatDisplay-SemiBoldItalic.woff2') format('woff2'),
+         url('../fonts/redhat-font/RedHatDisplay-SemiBoldItalic.woff') format('woff');
+    font-weight: 600; /* Numeric value for Semi-Bold */
+    font-style: italic;
+}

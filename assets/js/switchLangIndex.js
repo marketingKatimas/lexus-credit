@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     textApply2: document.getElementById('textApply2'),
 
     //Why Our Services
-    textWhyOurServices: document.getElementById('textWhyOurServices'),
+    // textWhyOurServices: document.getElementById('textWhyOurServices'),
     textWhyOurServicesH3: document.getElementById('textWhyOurServicesH3'),
     textWhyOurServicesP: document.getElementById('textWhyOurServicesP'),
     textNoHiddenFee: document.getElementById('textNoHiddenFee'),
@@ -144,19 +144,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
       //Banner
       textSolve: { 
-        en: 'Solve your financial issues quickly with <br> low interest rates', 
-        bm: 'Selesaikan isu kewangan anda dengan cepat dan dengan <br>kadar faedah yang rendah' 
+        en: 'Solve your financial issues quickly with low interest rates', 
+        bm: 'Selesaikan isu kewangan anda dengan kadar faedah yang rendah' 
       },
       textEfficient: { 
         en: 'Efficient. Trustworthy. For Everyone.', 
-        bm: 'Efisien. Amanah. Untuk Semua.' 
+        bm: 'Efficient. Trustworthy. For Everyone.' 
       },
       textWhatWeOffer: { en: 'What We Offer', bm: 'Tawaran kami'},
       textApplyBanner1: { en: 'Apply Today', bm: 'Mohon hari ini'},
 
       textSolution: { 
-        en: 'SOLUTIONS TO YOUR FINANCIAL NEEDS', 
-        bm: 'PENYELESAIAN KEPADA KEPERLUAN KEWANGAN ANDA'
+        en: 'Solution To Your Financial Needs', 
+        bm: 'Penyelesaian Kepada Keperluan Kewangan Anda'
       },
       textApplyToday: { 
         en: 'Apply today, approve today', 
@@ -166,24 +166,24 @@ document.addEventListener('DOMContentLoaded', function() {
       textApply2: { en: 'Apply Today', bm: 'Mohon hari ini' },
 
       //Why Our Service
-      textWhyOurServices: { 
-        en: 'Why Our services', 
-        bm: 'Mengapa Perkhidmatan Kami'
-      },
+      // textWhyOurServices: { 
+      //   en: 'Why Our services', 
+      //   bm: 'Mengapa Perkhidmatan Kami'
+      // },
       textWhyOurServicesH3: { 
         en: 'Everything you get with Lexus Credit', 
-        bm: 'Semua yang anda akan dapat dengan Lexus Credit'
+        bm: 'Lexus Credit pilihan Pinjaman Anda'
       },
       textWhyOurServicesP: { 
         en: 'Experience a comprehensive range of benefits and advantages that come with Lexus Credit.', 
-        bm: 'Alami rangkaian lengkap manfaat dan kelebihan yang datang dengan Lexus Credit.'
+        bm: 'Nikmati manfaat dan kelebihan bersama kami'
       },
       textNoHiddenFee: { en: 'No hidden fees', bm: 'Tiada yuran tersembunyi'},
       textNoHiddenFeeP: { 
         en: 'No hidden fees, just straightforward and transparent financing.', 
-        bm: 'Tiada yuran tersembunyi, hanya pembiayaan yang mudah dan telus.'
+        bm: 'Pembiayaan yang mudah dan telus.'
       },
-      textRefinancing: { en: 'Refinancing allowed, if needed', bm: 'Refinancing dibenarkan, jika perlu '},
+      textRefinancing: { en: 'Refinancing allowed, if needed', bm: 'Peluang Refinancing'},
       textRefinancingP: { 
         en: 'Enjoy the flexibility of refinancing, ensuring you have the option to make adjustments when necessary.', 
         bm: 'Nikmati fleksibiliti pembiayaan semula, memastikan anda mempunyai pilihan untuk membuat pelarasan apabila perlu.'
@@ -191,32 +191,32 @@ document.addEventListener('DOMContentLoaded', function() {
       textOpenToMalaysians: { en: 'Open to Malaysians', bm: 'Terbuka kepada warga Malaysia'},
       textOpenToMalaysiansP: { 
         en: 'Offering tailored solutions and benefits designed specifically for the local market.', 
-        bm: 'Menawarkan penyelesaian yang disesuaikan dan faedah yang direka khusus untuk pasaran tempatan.'
+        bm: 'Pakej pinjaman yang sesuai untuk pasaran tempatan'
       },
       textTawarruq: { en: 'Tawarruq financing', bm: 'Pembiayaan tawarruq'},
       textTawarruqP: { 
-        en: 'Lexus Credit offers Tawarruq financing, providing a Shariah-compliant solution for your financial needs', 
-        bm: 'Lexus Credit menawarkan pembiayaan Tawarruq, menyediakan penyelesaian patuh Syariah untuk keperluan kewangan anda'
+        en: 'Lexus Credit ensures interest-free financing', 
+        bm: 'Lexus Credit memastikan pembiayaan yang bebas Riba'
       },
       textFixedShariah: { 
         en: 'Fixed & shariah-compliant profit rate', 
-        bm: 'Kadar profit tetap & patuh syariah'
+        bm: 'Kadar profit tetap'
       },
       textFixedShariahP: { 
         en: "Benefit from the stability and transparency of Lexus Credit's fixed and Shariah-compliant profit rates, ensuring a reliable and ethical approach to your financing.", 
         bm: 'Manfaat daripada kestabilan dan ketelusan kadar keuntungan tetap dan patuh Syariah Lexus Credit, memastikan pendekatan yang boleh dipercayai dan beretika untuk pembiayaan anda.'
       },
-      textApplyTodayApproved: { en: 'Apply today, approve today', bm: 'Mohon hari ini, dapat kelulusan segera'},
+      textApplyTodayApproved: { en: 'Apply today, approve today', bm: 'Kelulusan segera'},
       textApplyTodayApprovedP: { 
         en: 'Experience the convenience of applying and receiving approval on the same day with Lexus Credit, making your financial journey seamless and efficient.', 
-        bm: 'Alami kemudahan memohon dan menerima kelulusan pada hari yang sama dengan Lexus Credit, menjadikan perjalanan kewangan anda lancar dan cekap.'
+        bm: 'Kelulusan dalam masa 24 jam'
       },
 
 
       //Type of Services We Offer
       textTypeOfServices: { 
         en: 'Types of services we offer', 
-        bm: 'Jenis perkhidmatan yang kami tawarkan'
+        bm: 'Tawaran Perkhidmatan Lexus Credit'
       },
       textTypeOfServicesP: { 
         en: 'We offer different kinds of loans depending on amount approved and tenure with low interest rates.', 
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       textPaydayLoanServices: { en: 'PAYDAY LOAN', bm: 'PEMBIAYAAN HARI GAJI'},
       textPaydayLoanServicesP: { 
-        en: 'For unexpected situations, our payday loans exist to provide instant financial relief that you need.<span class="dots"> ... </span><span class="more">Navigate through challenging situations with fast and accessible loans until your next paycheck.</span>', 
+        en: 'For unexpected situations, our payday loans exist to provide instant financial relief that you <span class="dots"> ... </span><span class="more"> need. Navigate through challenging situations with fast and accessible loans until your next paycheck.</span>', 
         bm: 'Bagi situasi tidak diduga, pembiayaan hari gaji diwujudkan untuk memberi anda bantuan <span class="dots"> ... </span><span class="more">kewangan segera. Tangani situasi mencabar dengan pembiayaan pantas dan selamat sehingga hari gaji seterusnya.</span>'
       },
       textPaydayLoanRead: { en: 'Read More', bm: 'Baca Lagi' },
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
       textBusinessLoanServices: { en: 'BUSINESS LOAN', bm: 'PEMBIAYAAN BISNES'},
       textBusinessLoanServicesP: { 
         en: 'Our business loan provides capital for your business to expand your startups and manage better cash <span class="dots"> ... </span><span class="more">flow. With our low interest rate, we can help fuel your business journey better.</span>', 
-        bm: 'Pembiayaan bisnes kami menyediakan modal untuk bisnes anda supaya anda dapat kembangkan <span class="dots"> ... </span><span class="more">perniagaan dan urus cash flow anda dengan lebih bijak. Dengan kadar faedah rendah, pilih pembiayaan bisnes kami untuk perkembangan perniagaan anda.</span>'
+        bm: 'Pembiayaan bisnes kami menyediakan modal untuk bisnes anda supaya anda dapat <span class="dots"> ... </span><span class="more"> kembangkan perniagaan dan urus cash flow anda dengan lebih bijak. Dengan kadar faedah rendah, pilih pembiayaan bisnes kami untuk perkembangan perniagaan anda.</span>'
       },
       textBusinessLoanRead: { en: 'Read More', bm: 'Baca Lagi' },
 
@@ -253,22 +253,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
       textIslamicLoanServices: { en: 'ISLAMIC LOAN', bm: 'PEMBIAYAAN ISLAMIK'},
       textIslamicLoanServicesP: { 
-        en: 'Our Islamic loans are shariah-compliant with complete adherence to the tawarruq system, <span class="dots"> ... </span><span class="more">ensuring transparency and fairness. Pursue your financial goals with us with confidence and trust!</span>', 
-        bm: 'Pembiayaan Islamik kami patuh pada syariah dan mengikuti sistem tawarruq, memastikan <span class="dots"> ... </span><span class="more">pembiayaan kami telus dan adil. Kecapi matlamat kewangan anda dengan yakin dan amanah!</span>'
+        en: 'Our Islamic financing follows the tawarruq and sharia compliant system', 
+        bm: 'Pembiayaan Islamik kami mengikuti sistem tawarruq dan patuh syariah'
       },
       textIslamicLoanRead: { en: 'Read More', bm: 'Baca Lagi' },
 
       textWeddingLoanServices: { en: 'WEDDING LOAN', bm: 'PEMBIAYAAN KAHWIN'},
       textWeddingLoanServicesP: { 
         en: 'Getting married? Fund your dream wedding with us! Our wedding loan is designed to cover all your <span class="dots"> ... </span><span class="more">wedding expenses so you can enjoy the day you’ll remember forever.</span>', 
-        bm: 'Untuk yang ingin berkahwin, biayai majlis kahwin idaman anda dengan pembiayaan perkahwinan <span class="dots"> ... </span><span class="more">kami! Pembiayaan ini merangkumi segala keperluan kahwin anda supaya anda dapat nikmati hari bahagia tanpa gelisah.</span>'
+        bm: 'Biayai Majlis idaman anda dengan kami supaya anda dapat menikmati hari bahagia tanpa gelisah.'
       },
       textWeddingLoanRead: { en: 'Read More', bm: 'Baca Lagi' },
 
       textRenovationLoanServices: { en: 'RENOVATION LOAN', bm: 'PEMBIAYAAN RENOVASI'},
       textRenovationLoanServicesP: { 
-        en: 'Get the necessary funds to renovate your current home into your ideal home! Give your interior a <span class="dots"> ... </span><span class="more">fresh new look with our flexible terms with a low interest rate and make your home project a reality!</span>', 
-        bm: 'Dapatkan modal untuk ubahsuai rumah anda yang sekarang kepada rumah impian! Berikan interior <span class="dots"> ... </span><span class="more">rupa yang baharu dengan pembiayaan fleksibel kami, pada kadar faedah yang rendah. Jadikan projek ubahsuai rumah anda suatu kenyataan!</span>'
+        en: 'Get the necessary funds to renovate your current home into your ideal home! Give your <span class="dots"> ... </span><span class="more">  interior a fresh new look with our flexible terms with a low interest rate and make your home project a reality!</span>', 
+        bm: 'Jadikan projek ubahsuai rumah anda suatu kenyataan dengan pembiayaan fleksibel.<span class="dots"> ... </span><span class="more"> Dapatkan modal untuk ubahsuai rumah impian anda sekarang!</span>'
       },
       textRenovationLoanRead: { en: 'Read More', bm: 'Baca Lagi' },
 
@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       textEducationLoanServices: { en: 'EDUCATION LOAN', bm: 'PEMBIAYAAN PENDIDIKAN'},
       textEducationLoanServicesP: { 
-        en: 'Concentrate on your education without the financial burden! Our education loans cover your tuition <span class="dots"> ... </span><span class="more">fees, textbooks & living expenses, letting you focus on your studies. With favorable repayment terms, furthering your studies are made easy.</span>', 
+        en: 'Concentrate on your education without the financial burden! Our education loans cover your <span class="dots"> ... </span><span class="more"> tuition fees, textbooks & living expenses, letting you focus on your studies. With favorable repayment terms, furthering your studies are made easy.</span>', 
         bm: 'Tumpukan pada pendidikan anda tanpa beban kewangan! Pembiayaan Pendidikan kami <span class="dots"> ... </span><span class="more">merangkumi yuran tuisyen, buku teks & keperluan harian agar anda dapat fokus pada pembelajaran anda. Dengan pelan bayaran balik yang mesra pelajar, melanjutkan pelajaran menjadi lebih mudah.</span>'
       },
       textEducationLoanRead: { en: 'Read More', bm: 'Baca Lagi' },

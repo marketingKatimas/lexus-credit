@@ -56,7 +56,8 @@ body {
   padding: 0;
   margin: 0;
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "RedHatDisplay-Medium", sans-serif;
 }
 
 img {
@@ -130,14 +131,15 @@ p:last-child {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  color: #343b4e;
-  font-family: "Rubik", sans-serif;
+  color: #1F396D;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "RedHatDisplay-Medium", sans-serif;
 }
 
 .default-btn {
   display: inline-block;
-  color: #fd5a0e;
-  background-color: #ffffff;
+  background-color: #fd5a0e;
+  color: #ffffff;
   padding: 12px 25px;
   font-size: 16px;
   font-weight: 400;
@@ -156,8 +158,8 @@ p:last-child {
 }
 
 .default-btn:hover {
-  background-color: #fd5a0e;
-  color: #ffffff;
+  color: #fd5a0e;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -336,7 +338,7 @@ Navbar Area CSS
 }
 
 .exto-nav .navbar .navbar-nav .nav-item a:hover, .exto-nav .navbar .navbar-nav .nav-item a:focus, .exto-nav .navbar .navbar-nav .nav-item a.active {
-  color: #F15B2B;
+  color: #FFCE07;
 }
 
 .exto-nav .navbar .navbar-nav .nav-item a i {
@@ -355,7 +357,7 @@ Navbar Area CSS
 }
 
 .exto-nav .navbar .navbar-nav .nav-item:hover a, .exto-nav .navbar .navbar-nav .nav-item:focus a, .exto-nav .navbar .navbar-nav .nav-item.active a {
-  color: #fd5a0e;
+  color: #FFCE07;
 }
 
 .exto-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -617,8 +619,8 @@ Navbar Area CSS
 }
 
 .exto-nav .navbar .nav-item .others-options .saas-nav-btn {
-  background-color: #fd5a0e;
-  color: #ffffff;
+  background-color: #FFCE07;
+  color: #1F396D;
   padding: 10px 20px !important;
   border-radius: 4px;
   margin-left: 10px;
@@ -1371,7 +1373,8 @@ Navbar Area Two CSS
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
-    font-family: 'Helvetica', Arial, sans-serif;
+    /* font-family: 'Helvetica', Arial, sans-serif; */
+    font-family: "RedHatDisplay-Medium", sans-serif;
     font-weight: bold;
     font-size: 10px;
     text-transform: uppercase;
@@ -1382,7 +1385,7 @@ Navbar Area Two CSS
     }
     
     input.check-toggle-round-flat:checked ~ .off {
-    color: #fd5a0e;
+    color: #FFCE07;
     }
     
     input.check-toggle-round-flat:checked ~ .on {
@@ -1392,7 +1395,7 @@ Navbar Area Two CSS
     .switch > span.on {
     left: 0;
     padding-left: 23px;
-    color: #fd5a0e;
+    color: #FFCE07;
     margin-right: 5px;
     font-size: 10px;
     }
@@ -1473,7 +1476,7 @@ Saas Home Area CSS
   height: 100vh;
   z-index: 1;
   overflow: hidden;
-  background-image: url(../img/saas-banner/lexus_background1.png);
+  background-image: url(../img/saas-banner/lexus_background3.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1484,6 +1487,7 @@ Saas Home Area CSS
 } */
 
 .saas-home-area .hero-content h1 {
+  font-family: "RedHatDisplay-Medium", sans-serif !important;
   font-size: 50px;
   color: #FFF;
   font-weight: bold;
@@ -1515,8 +1519,8 @@ Saas Home Area CSS
 
 .saas-home-area .hero-content .saas-btn .saas-btn-one {
   display: inline-block;
-  color: #ffffff;
-  background-color: #fd5a0e;
+  color: #1F396D;
+  background-color: #FFCE07;
   padding: 14px 25px;
   font-size: 16px;
   font-weight: 400;
@@ -3109,7 +3113,7 @@ Calculator CSS
   background: #ffffff;
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-  padding: 50px 30px;
+  padding: 70px 65px;
   border-radius: 5px;
 }
 
@@ -3198,7 +3202,8 @@ Calculator CSS
 /* Start For Loan Calculator */
 
 .calculator {
-  font-family: "Arial", sans-serif;
+  /* font-family: "Arial", sans-serif; */
+  font-family: "RedHatDisplay-Medium", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3700,7 +3705,7 @@ What We Do Section CSS
 
 .we-do-content-area h3 {
   font-size: 38px;
-  color: #624272;
+  color: #1F396D;
   margin: 10px 0 18px 0;
 }
 
@@ -3955,11 +3960,11 @@ Productive Section CSS
 }
 
 .productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(3) .productive-area-content .icon span {
-  background-color: #ffd8d8;
+  background-color: #FEFFAC;
 }
 
 .productive-section .col-lg-4.col-md-6.col-sm-6:nth-child(6) .productive-area-content .icon span {
-  background-color: #ffd8d8;
+  background-color: #FEFFAC;
 }
 
 .productive-title {
@@ -4011,7 +4016,7 @@ Productive Section CSS
 
 .productive-area-content h3 {
   font-size: 20px;
-  color: #444444;
+  color: #1F396D;
   margin: 0 0 10px 0;
 }
 
@@ -4212,7 +4217,7 @@ Saying Section CSS
 
 .saying-title h3 {
   font-size: 38px;
-  color: #624272;
+  color: #1F396D;
   margin: -8px 0 18px 0;
 }
 
@@ -4820,13 +4825,13 @@ Circulate Section CSS
 
 .about-content-area span {
   font-size: 16px;
-  color: #002c8c;
+  color: #ff8b00;
   font-weight: 400;
 }
 
 .about-content-area h3 {
   font-size: 38px;
-  color: #343c4e;
+  color: #1F396D;
   margin: 10px 0 18px 0;
 }
 
@@ -4841,20 +4846,21 @@ Circulate Section CSS
 .about-content-area .about-btn .about-btn-one {
   display: inline-block;
   color: #ffffff;
-  background-color: #012d8c;
+  background-color: #fe5a0e;
   padding: 10px 25px;
   font-size: 15px;
   font-weight: 400;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 3px;
-  /* border: 1px solid #012d8c; */
 }
 
-.about-content-area .about-btn .about-btn-one:hover {
-  background-color: #F15B2B;
-  color: #fff;
+.about-content-area .about-btn:hover .about-btn-one {
+  color: #fe5a0e;
+  background-color: #ffffff; 
+  border: 1px solid #fe5a0e;
 }
+
 
 /*================================================
 Co-operative Section CSS
@@ -5868,7 +5874,7 @@ Visitor Section CSS
 
 .visitor-content-area h3 {
   font-size: 18px;
-  color: #3e435e;
+  color: #1F396D;
   margin: 14px 0 5px 0;
 }
 
@@ -5917,7 +5923,7 @@ Visitor Section CSS
 
 .read-more {
   cursor: pointer;
-  color: #0E4A7E;
+  color: #F15B2B;
 }
 
 .more {
@@ -8031,7 +8037,8 @@ blockquote::before, .blockquote::before {
   left: 50px;
   top: -50px;
   z-index: -1;
-  font-family: "Font Awesome 5 Free";
+  /* font-family: "Font Awesome 5 Free"; */
+  font-family: "RedHatDisplay-Medium", sans-serif;
   font-size: 140px;
   font-weight: 900;
 }
@@ -10107,17 +10114,21 @@ Checkout Area CSS
   }
   
   .formbold-btn {
-	background: #0E4A7E;
+	background: #fd5a0e;
 	border: 0;
 	padding: 10px 30px;
-	color: #fff !important;
+	color: #ffffff;
 	transition: 0.4s;
 	border-radius: 50px;
 	margin-top: 20px;
 	margin-bottom: 20px;
   }
+  
   .formbold-btn:hover {
-	background: #25A6DF;
+	background: #ffffff;
+  color: #fd5a0e;
+  border: 1px solid #fe5a0e;
+
   }
   
   #responseMessage {
@@ -10220,7 +10231,8 @@ whatsapp Now Button Start Here
 .cssbuttons-io-button {
   background: #1F396D;
   color: white;
-  font-family: inherit;
+  /* font-family: inherit; */
+  font-family: "RedHatDisplay-Medium", sans-serif;
   padding: 0.35em;
   padding-left: 1.2em;
   font-size: 17px;
@@ -10374,15 +10386,15 @@ whatsapp Now Button End Here
 }
 
 #iconOne {
-  background-color: #FFEADD;
+  background-color: #FFEBCC;
 }
 
 #iconTwo {
-  background-color: #FCAEAE;
+  background-color: #FEFFAC; 
 }
 
 #iconThree {
-  background-color: #FF8989;
+  background-color: #EAE7EC; 
 }
 
 #iconFour {
@@ -10474,6 +10486,7 @@ whatsapp Now Button End Here
 	text-align:center;
 	text-decoration:none;
 	font-family:fontawesome;
+  /* font-family: "RedHatDisplay-Medium", sans-serif; */
 	position: relative;
 	display: inline-block;
 	width:40px;
@@ -10496,13 +10509,14 @@ whatsapp Now Button End Here
 .documents a span {
 	color:#fff;
 	position:absolute;
-	font-family: 'museo_sans500', sans-serif !important;
+	/* font-family: 'museo_sans500', sans-serif !important; */
+  font-family: "RedHatDisplay-Medium", sans-serif;
 	bottom:0;
 	left:-25px;
 	right:-25px;
 	padding:5px 7px;
 	z-index:-1;
-	font-size:12px;
+	font-size:10px;
 	font-weight: 700;
 	border-radius:2px;
 	background:#1F396D;
@@ -10594,6 +10608,7 @@ whatsapp Now Button End Here
 	text-align:center;
 	text-decoration:none;
 	font-family:fontawesome;
+  font-family: "RedHatDisplay-Medium", sans-serif;
 	position: relative;
 	display: inline-block;
 	width:40px;
@@ -10616,7 +10631,8 @@ whatsapp Now Button End Here
 .documentsWithout a span {
 	color:#fff;
 	position:absolute;
-	font-family: 'museo_sans500', sans-serif !important;
+	/* font-family: 'museo_sans500', sans-serif !important; */
+  font-family: "RedHatDisplay-Medium", sans-serif;
 	bottom:0;
 	left:-25px;
 	right:-25px;
@@ -11090,7 +11106,7 @@ Footer Section CSS
 
 .single-footer-widget h3 {
   margin-bottom: 30px;
-  color: #3e435e;
+  color: #1F396D;
   position: relative;
   font-size: 20px;
 }
