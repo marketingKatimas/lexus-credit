@@ -3396,6 +3396,12 @@ form:not(:first-child) {
   font-weight: 600;
 }
 
+.result .btn-container:hover button:hover{
+  background-color: #ffffff;
+  color: #fd5a0e;
+  border: 1px solid #fd5a0e;
+}
+
 
 /* End For Loan Calculator */
 
