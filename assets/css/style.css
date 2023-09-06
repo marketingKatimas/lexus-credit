@@ -1476,7 +1476,7 @@ Saas Home Area CSS
   height: 100vh;
   z-index: 1;
   overflow: hidden;
-  background-image: url(../img/saas-banner/lexus_background3.png);
+  background-image: url(../img/saas-banner/lexus_background4.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1616,7 +1616,7 @@ Saas Home Area CSS
           animation: animationFramesOne 20s infinite linear;
 }
 
-.shape-img2 {
+/* .shape-img2 {
   position: absolute;
   left: 5%;
   top: 10%;
@@ -1629,7 +1629,7 @@ Saas Home Area CSS
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-}
+} */
 
 .shape-img3 {
   position: absolute;
@@ -1659,6 +1659,75 @@ Saas Home Area CSS
   z-index: -1;
   -webkit-animation: animationFramesOne 20s infinite linear;
           animation: animationFramesOne 20s infinite linear;
+}
+
+.shape-img6 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+          animation: animationFramesOne 20s infinite linear;
+}
+
+.shape-img7 {
+  position: absolute;
+  left: 0%;
+  right: 90%;
+  text-align: center;
+  margin: 0 auto;
+  z-index: -1;
+  top: 15%;
+  -webkit-animation: rotate3d 4s linear infinite;
+  animation: rotate3d 4s linear infinitear;
+}
+
+.shape-img8 {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  z-index: -1;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
+}
+
+.shape-img9 {
+  position: absolute;
+  left: 85%;
+  top: 30%;
+  z-index: -1;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
+}
+
+.shape-img10 {
+  position: absolute;
+  left: 40%;
+  top: 75%;
+  z-index: -1;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+          animation: animationFramesOne 20s infinite linear;
+}
+
+.shape-img11 {
+  position: absolute;
+  right: 95%;
+  top: 30%;
+  z-index: -1;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+          animation: animationFramesOne 20s infinite linear;
+}
+
+.shape-img12 {
+  position: absolute;
+  left: -30%;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  z-index: -1;
+  top: 50%;
+  -webkit-animation: rotate3d 4s linear infinite;
+  animation: rotate3d 4s linear infinite;
 }
 
 @-webkit-keyframes MOVE-BG {
@@ -1945,6 +2014,19 @@ Saas Home Area CSS
 .saas-home-area .hero-content span {
   margin-right: 150px;
 }
+
+.shape-img1, 
+.shape-img3,
+.shape-img4,
+.shape-img5,
+.shape-img6,
+.shape-img7,
+.shape-img8,
+.shape-img9,
+.shape-img10,
+.shape-img11 {
+  display: none;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width:1024px) {
@@ -1963,6 +2045,19 @@ Saas Home Area CSS
 
   .saas-home-area .hero-content h1 {
     font-size: 23px !important;
+  }
+
+  .shape-img1, 
+  .shape-img3,
+  .shape-img4,
+  .shape-img5,
+  .shape-img6,
+  .shape-img7,
+  .shape-img8,
+  .shape-img9,
+  .shape-img10,
+  .shape-img11 {
+    display: none;
   }
 
 }
