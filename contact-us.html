@@ -47,19 +47,18 @@
 
     <link rel="icon" type="image/png" href="assets/img/favicon_Lexus.png">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BW6WWRJ63F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BW6WWRJ63F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-BW6WWRJ63F');
-</script>
+        gtag('config', 'G-BW6WWRJ63F');
+    </script>
 </head>
 
 <body>
-
     <!-- Preloader Area -->
     <div class="preloader-area">
         <div class="spinner">
@@ -188,7 +187,6 @@
                         <div class="content-title">
                             <h3 id="textPhone">Phone</h3>
                             <a href="https://api.whatsapp.com/send?phone=60109079967">(06) 010-907 9967</a>
-
                         </div>
                     </div>
                 </div>
@@ -207,7 +205,6 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-form">
-
                         <!-- Contact Form Start Here -->
                         <form id="subscribeForm" method="POST">
                             <div class="row">
@@ -433,11 +430,9 @@
     <script src="assets/js/switchLangContact.js"></script>
 
     <script>
-
         grecaptcha.ready(() => {
             console.log('grecaptcha is ready');
         })
-
 
         function displayErrorMessage(inputFieldId, errorMessage) {
             const errorElement = document.getElementById(`${inputFieldId}Error`);
@@ -453,7 +448,6 @@
             const emailInput = document.getElementById('email');
             const phoneInput = document.getElementById('phone');
             const messageInput = document.getElementById('message');
-
 
             if (nameInput.value.trim() === '') {
                 displayErrorMessage('name', 'This field is required.');
@@ -525,7 +519,6 @@
             });
         }
 
-
         function resetForm() {
             $(':input', '#subscribeForm')
                 .not(':button, :submit, :reset, :hidden')
@@ -549,7 +542,6 @@
                     });
             }
         }
-
         $(document).ready(() => {
             $('.error_message').hide();
         })
