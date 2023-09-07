@@ -727,7 +727,7 @@ Navbar Area CSS
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background: #ffffff !important;
+  background: #1F3960 !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-transition: 0.5s;
@@ -820,7 +820,7 @@ Navbar Area CSS
     font-size: 15px;
   }
   .exto-responsive-nav .exto-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #fd5a0e;
+    color: #FFCE07;
   }
   .exto-responsive-nav .exto-responsive-menu.mean-container .mean-nav ul li li a {
     font-size: 15px;
@@ -835,10 +835,10 @@ Navbar Area CSS
     display: none;
   }
   .exto-responsive-nav .mean-container a.meanmenu-reveal {
-    color: #fd5a0e;
+    color: #FFCE07;
   }
   .exto-responsive-nav .mean-container a.meanmenu-reveal span {
-    background: #fd5a0e;
+    background: #FFCE07;
   }
   .exto-responsive-nav .logo {
     position: relative;
@@ -2012,7 +2012,7 @@ Saas Home Area CSS
 }
 
 .saas-home-area .hero-content span {
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 .shape-img1, 

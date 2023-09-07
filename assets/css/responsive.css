@@ -16,6 +16,11 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  .top {
+    margin-top: 20px;
+  }
+
   .mean-container a.meanmenu-reveal {
     padding-top: 0;
   }
@@ -55,7 +60,7 @@
   }
   .saas-home-area .hero-content h1 {
     font-size: 25px;
-    margin: 12px 0 8px 0;
+    margin: 55px 0 8px 0;
   }
   .saas-home-area .hero-content p {
     font-size: 14px;
@@ -349,6 +354,7 @@
   }
   .footer-section {
     padding-top: 50px;
+    padding-left: 70px;
   }
   .footer-area-content p {
     margin: 16px 0 25px 0;
@@ -362,6 +368,7 @@
   .copyright-area {
     margin-top: 20px;
     text-align: center;
+    padding-right: 50px;
   }
   .marketing-home-area {
     height: 100%;
@@ -1378,12 +1385,18 @@
     position: absolute;
     top: -8px;
     /* right: 46px; */
-    background-color: #fd5a0e;
+    background-color: #FFCE07;
     display: inline-block;
     padding: 10px;
     border-radius: 4px;
-    color: #ffffff;
+    color: #ffffff !important;
   }
+
+  .saas-nav-btn:hover {
+    background-color: #fd5a0e !important;
+    color: #ffffff !important;
+  }
+
   .saas-nav-btn i {
     font-size: 12px;
   }
@@ -1512,6 +1525,11 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  .top {
+    margin-top: 20px;
+  }
+
   .default-btn {
     padding: 10px 25px;
     font-size: 15px;
@@ -1561,7 +1579,7 @@
   }
   .saas-home-area .hero-content h1 {
     font-size: 25px;
-    margin: 12px 0 8px 0;
+    margin: 55px 0 8px 0;
   }
   .saas-home-area .hero-content p {
     font-size: 14px;
@@ -1597,6 +1615,11 @@
     position: absolute;
     right: 0;
   }
+
+  .saas-nav-btn {
+    color: #ffffff !important;
+  }
+
   .features-image {
     text-align: center;
   }
@@ -1826,7 +1849,9 @@
   }
   .footer-section {
     padding-top: 50px;
+    padding-left: 75px;
   }
+
   .footer-area-content p {
     margin: 16px 0 25px 0;
   }
@@ -2653,7 +2678,7 @@
     position: absolute;
     top: -8px;
     /* right: 46px; */
-    background-color: #fd5a0e;
+    background-color: #FFCE07;
     display: inline-block;
     padding: 10px;
     border-radius: 4px;
@@ -2923,6 +2948,7 @@
   .freelancer-client-section .clients-wraps .client-all-img-6 {
     left: 137px;
   }
+
 }
 
 @media only screen and (min-width: 1300px) {
